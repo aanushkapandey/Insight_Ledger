@@ -1,0 +1,79 @@
+.container {
+    text-align: center;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #959595;
+    margin-bottom: 30px;
+  }
+  
+  .section {
+    background: rgba(16, 0, 117, 0.05);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1.1rem;
+    color: #959595;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(16, 0, 117, 0.1);
+    border-left: 5px solid #5b00e5;
+    border-radius: 5px;
+  }
+  
+  .email {
+    color: #5b00e5;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .email:hover {
+    text-decoration: underline;
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #100075, #5b00e5);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .backButton:hover {
+    background: linear-gradient(45deg, #0d005b, #4a00c2);
+    transform: scale(1.05);
+  }
+  

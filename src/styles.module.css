@@ -1,0 +1,79 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #959595;
+    margin-bottom: 30px;
+  }
+  
+  .blogList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blogPost {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .blogPost:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .excerpt {
+    color: #808080;
+    font-size: 1rem;
+  }
+  
+  .date {
+    font-size: 0.9rem;
+    color: #9a9a9a;
+    margin-bottom: 10px;
+  }
+  
+  .readMore {
+    color: #5b00e5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .readMore:hover {
+    text-decoration: underline;
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #100075, #5b00e5);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .backButton:hover {
+    background: linear-gradient(45deg, #0d005b, #4a00c2);
+    transform: scale(1.05);
+  }
+  
